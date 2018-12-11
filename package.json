@@ -1,0 +1,51 @@
+{
+  "name": "etp-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "test": "jest",
+    "test-update-snapshot": "jest -u"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "6.22.0",
+    "css-loader": "^1.0.1",
+    "enzyme": "3.7",
+    "enzyme-adapter-react-15.4": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
+    "jest-enzyme": "4.0",
+    "jest-junit": "3.6",
+    "node-sass": "^4.10.0",
+    "react-addons-test-utils": "15.4",
+    "react-test-renderer": "^16.6.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "eventbrite_design_system": "http://packages.evbops.com:8889/package/eventbrite_design_system/67.1.0",
+    "prop-types": "^15.6.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "2.2"
+  }
+}
